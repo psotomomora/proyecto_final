@@ -1,8 +1,8 @@
 <template>
   <div>
-    <h1 class="text-center my-5">Registro de Usuario</h1>
+    <h1 class="text-center my-5 tipotitulo">Registro de Usuario</h1>
 
-    <b-form @submit.prevent="registro" @reset="onReset">
+    <b-form class="tipoform" @submit.prevent="registro" @reset="onReset">
       <div class="alert alert-danger" role="alert" v-show="error[0]" v-for="(item, index) in error" :key="index">
         {{item}}
       </div>
@@ -17,16 +17,16 @@
       </b-form-group>
 
     <!-- claves --> 
-      <b-form-group id="input-group-2" label="Ingresa una Contraseña:" label-for="input-2">
+      <b-form-group id="input-group-2" label="Ingresa tu Contraseña:" label-for="input-2">
         <b-form-input id="input-2" v-model="passA" type="password" placeholder="Ingresa Contraseña"></b-form-input>
       </b-form-group>
-      <b-form-group id="input-group-2" label="Repite tu Contraseña:" label-for="input-2">
+      <b-form-group id="input-group-2" label="Repite la Contraseña:" label-for="input-2">
         <b-form-input id="input-2" v-model="passB" type="password" placeholder="Ingresa de nuevo tu Contraseña"></b-form-input>
       </b-form-group>
 
     <!-- botones -->
-      <b-button type="submit" variant="primary" class="mx-2">Registrar</b-button>
-      <b-button type="reset" variant="danger" class="mx-2">Borrar</b-button>
+      <b-button type="submit" variant="primary" class="mx-2 colornegro">Registrar</b-button>
+      <b-button type="reset" variant="danger" class="mx-2 colorrosa">Borrar</b-button>
     </b-form>
   </div>
 </template>
@@ -36,7 +36,7 @@ import firebase from 'firebase';
 import Swal from 'sweetalert2';
 
 export default {
-    name: 'Registro',
+    name: 'Registrousuario',
     data() {
         return {
             email: '',
@@ -111,5 +111,17 @@ export default {
 </script>
 
 <style>
-
+.colornegro {
+  background-color: black;
+  border: black;
+}
+.colorrosa {
+  background-color: #CC0066;
+}
+.tipotitulo {
+  font-family: 'MuseoModerno', cursive;
+}
+.tipoform {
+  font-family: 'Trebuchet MS';
+}
 </style>

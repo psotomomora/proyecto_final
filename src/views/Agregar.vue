@@ -1,16 +1,16 @@
 <template>
   <div>
-    <TodoAdd />
+    <Subirdiseno />
   </div>
 </template>
 
 <script>
-import TodoAdd from '@/components/TodoAdd.vue';
+import Subirdiseno from '@/components/Subirdiseno.vue';
 
 export default {
     name: 'Agregar',
     components: {
-        TodoAdd,
+        Subirdiseno,
     }
 }
 </script>

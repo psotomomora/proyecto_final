@@ -1,6 +1,6 @@
 <template>
-  <div class="mt-5">
-    <h1 class="text-center my-5">Login de Usuario</h1>
+  <div class="mt-5 tipoform">
+    <h1 class="text-center my-5 tipotitulo">Login de Usuario</h1>
 
     <b-form @submit.prevent="login" @reset="onReset">
       <div class="alert alert-danger" role="alert" v-show="error">
@@ -15,8 +15,8 @@
         <b-form-input id="input-3" v-model="clave" type="password" required placeholder="Ingresa Contraseña"></b-form-input>
       </b-form-group>
     <!-- botones -->
-      <b-button type="submit" variant="primary" class="mx-2">Entrar</b-button>
-      <b-button type="reset" variant="danger" class="mx-2">Borrar</b-button>
+      <b-button type="submit" class="mx-2 colornegro">Entrar</b-button>
+      <b-button type="reset" class="mx-2 colorrosa">Borrar</b-button>
     </b-form>
   </div>
 </template>
@@ -66,14 +66,14 @@ export default {
               icon: 'error',
               title: 'Oops...',
               text: 'El usuario no existe en nuestra base de datos',
-              footer: '<b>AppToDo</b>'
+              footer: '<b>Meganulon</b>'
             });
           }else if(error.code == 'auth/wrong-password'){
             Swal.fire({
               icon: 'error',
               title: 'Oops...',
               text: 'El Correo y/o Contraseña no son validos',
-              footer: '<b>AppToDo</b>'
+              footer: 'Meganulon</b>'
             });
           }
         })
@@ -86,3 +86,22 @@ export default {
   },
 }
 </script>
+
+<style>
+.colornegro {
+  background-color: black;
+  border: black;
+}
+.colorrosa {
+  background-color: #CC0066;
+  border: #CC0066;
+}
+.tipotitulo {
+  font-family: 'MuseoModerno', cursive;
+  text-align: center;
+}
+.tipoform {
+  font-family: 'Trebuchet MS';
+  text-align: center;
+}
+</style>

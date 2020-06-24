@@ -59,7 +59,7 @@ export default new Vuex.Store({
     }
   },
   actions: {
-    agregarCursoVuex(context,recibidoCurso){
+    agregarDiseño(context,recibidoCurso){
       let idNuevo = Math.floor(Math.random()*10);
 
       while (idNuevo > -1){
@@ -80,7 +80,7 @@ export default new Vuex.Store({
       }).then(()=>{
         Swal.fire(
           'Muy bien!',
-          'Curso Agregado!',
+          'Diseño Agregado!',
           'success'
         )
       }).catch((error)=>{

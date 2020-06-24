@@ -9,6 +9,7 @@
 import Navegacion from './components/Navegacion.vue';
 import firebase from 'firebase';
 
+
 export default {
   name: 'App',
   data() {

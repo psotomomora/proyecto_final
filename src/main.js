@@ -8,6 +8,7 @@ import firebase from 'firebase';
 import { BootstrapVue, IconsPlugin } from 'bootstrap-vue';
 import { firebaseConfig } from "./config/firebaseConfig";
 
+
 firebase.initializeApp(firebaseConfig);
 export const db = firebase.firestore();
 

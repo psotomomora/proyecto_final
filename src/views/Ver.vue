@@ -1,16 +1,16 @@
 <template>
   <div>
-      <todo-lista></todo-lista>
+      <lista></lista>
   </div>
 </template>
 
 <script>
-import TodoLista from '../components/TodoLista.vue';
+import Lista from '../components/Lista.vue';
 
 export default {
     name: 'Ver',
     components: {
-        TodoLista
+        Lista
     }
 }
 </script>

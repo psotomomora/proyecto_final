@@ -27,9 +27,14 @@ Vue.use(VueRouter)
     component: () => import('../views/Ver.vue')
   },
   {
-    path: '/registrar',
-    name: 'Registrar',
-    component: () => import('../views/Registro.vue'),
+    path: '/bancodefotos',
+    name: 'Bancodefotos',
+    component: () => import('../views/Bancodefotos.vue')
+  },
+  {
+    path: '/registrousuario',
+    name: 'Registrousuario',
+    component: () => import('../views/Registrousuario.vue'),
     alias: ['/registro','/crearcuenta','/cuenta','/crear']
   },
   {
