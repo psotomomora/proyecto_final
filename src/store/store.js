@@ -20,7 +20,7 @@ export default new Vuex.Store({
   },
   mutations: {
     traerCursoDB(state){
-      db.collection("cursos_prueba").doc("usuario").collection("agregados").onSnapshot(datos => {
+      db.collection("coleccionnueva").doc("usuario").collection("agregados").onSnapshot(datos => {
         let auxiliar = [];
         datos.forEach(elementos=>{
           auxiliar.push({
@@ -71,7 +71,7 @@ export default new Vuex.Store({
         }
       }
   
-      db.collection("cursos_prueba").doc("usuario").collection("agregados").add({
+      db.collection("coleccionnueva").doc("usuario").collection("agregados").add({
         id: idNuevo,
         name: recibidoCurso.name,
         image: recibidoCurso.image,
