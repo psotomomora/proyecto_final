@@ -72,8 +72,9 @@ Puedes encontrar mucho más de cómo utilizar este proyecto en nuestra [Git](htt
 * Si te sirve da las gracias públicamente 🤓.
 
 
+## Datos complementarios
 
-App Meganulon - Catálogo de contactos y trabajos de diseño gráfico.
+_App Meganulon - Catálogo de contactos y trabajos de diseño gráfico.
 VueCLI -> Vuex,Vue Router, Testing (Unitario-Jest)
 Dependencias (Bootstrap (con jquery popper))
 Vue Router (Direcciones - vistas)
@@ -84,13 +85,13 @@ Vuex (estado con variables disponibles en vistas y componentes)
 Vistas(Agregar -> Con componente todoAdd)
 Vistas(Ver -> mostrar los cursos)
 Vista (Login -> sin funcionamiento )
-Vista (Home -> Inicio)
+Vista (Home -> Inicio)_
 
 ---------------------------------------------------
 
-Dependencias (Firebase -> conexion con auth)
+_Dependencias (Firebase -> conexion con auth)
 Dependencias (Bootstrap-Vue -> trasnformar Navegacion (navbar) y los formularios (form) Login, agregar cursos, registro)
 Creamos vista (Registro)
 Creamos la carpeta Config - > archivo firebaseCongig.js (pegar la configuracion de firebase)
 En el Router Vue - Agregamos Alias y redirecciones. mas la vista nueva de registro
-Vuex (store), 
+Vuex (store) Conexión a axios en una misma dependencia en Vista Bancodefotos_
