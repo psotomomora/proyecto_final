@@ -60,23 +60,9 @@ yarn lint
 See [Configuration Reference](https://cli.vuejs.org/config/).
 
 
-### Maqueta de estructura de la app 🛠️
-
-_Diseño estructural_
-
-![estructura]('https://paolasotomora.files.wordpress.com/2011/06/captura-de-pantalla-2012-12-27-a-las-22-12-04.png?w=700&h=')
-
-### Diseño en proceso 📌
-
-_Diseño previo_
-
-
-_Finaliza con un ejemplo de cómo obtener datos del sistema o como usarlos para una pequeña demo_
-
-
 ## GitHub 📖
 
-Puedes encontrar mucho más de cómo utilizar este proyecto en nuestra [Wiki](https://github.com/tu/proyecto/wiki)
+Puedes encontrar mucho más de cómo utilizar este proyecto en nuestra [Git](https://github.com/psotomomora/proyecto_final)
 
 
 ## Tus expresiones de Gratitud 🎁
