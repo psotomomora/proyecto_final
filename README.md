@@ -1,4 +1,4 @@
-# meganulon web para diseñadores gráficos
+# Meganulon web para diseñadores gráficos
 
 _Web para suscribirse como contacto con la posibilidad de compartir contactos y además generar un catálogo de trabajos relacionados al diseño gráfico_
 
@@ -6,21 +6,25 @@ _Web para suscribirse como contacto con la posibilidad de compartir contactos y 
 
 _Partí de la base del proyecto trabajado en clases AppTodo y me estoy ayudando con los demás trabajos desarrollados en el curso para darle forma al proyecto final_
 
-Mira **Deployment** para conocer como desplegar el proyecto.
-
-
 ### Requerimientos de cliente 📋
 
-_Que cosas necesitas para instalar el software y como instalarlas_
+_El cliente solicita sitio web adminitrable, con registro de usuario con bbdd, login para acceder a agregar trabajos y estar en catálogo, más un baco de imágenes para los diseñadores_
 
 ### Objetivos
 
-_Que cosas necesitas para instalar el software y como instalarlas_
+_Realizar un sitio breve, fácil de comprender, que genere una base de datos de diseñadores, los cuales tendrán la posibilidad de subir sus trabajos como una cartelera y además pueden obtener fotos de calidad en banco de fotografías_
 
+### Estructura del proyecto
+
+![alt text]('https://paolasotomora.files.wordpress.com/2020/06/web-01.jpg')
 
 ### Guía de estilos
 
-_Que cosas necesitas para instalar el software y como instalarlas_
+![alt text]('https://paolasotomora.files.wordpress.com/2020/06/web-03.jpg')
+
+### Diseño previo
+
+![alt text]('https://paolasotomora.files.wordpress.com/2020/06/web-02.jpg')
 
 ### Guía de instalación del proyecto 🔧
 
