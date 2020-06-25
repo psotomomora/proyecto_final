@@ -16,7 +16,8 @@ _Realizar un sitio breve, fácil de comprender, que genere una base de datos de 
 
 ### Estructura del proyecto
 
-![alt text]('https://paolasotomora.files.wordpress.com/2020/06/web-01.jpg')
+![alt text](https://paolasotomora.files.wordpress.com/2020/06/web-01.jpg)
+
 
 ### Guía de estilos
 
