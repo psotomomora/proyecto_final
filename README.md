@@ -60,6 +60,11 @@ yarn lint
 See [Configuration Reference](https://cli.vuejs.org/config/).
 
 
+## Solución CON NUEVA COLECCIÓN📖
+
+![alt text](https://paolasotomora.files.wordpress.com/2020/06/image-4.png)
+
+
 ## GitHub 📖
 
 Puedes encontrar mucho más de cómo utilizar este proyecto en nuestra [Git](https://github.com/psotomomora/proyecto_final)
